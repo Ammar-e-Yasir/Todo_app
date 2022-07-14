@@ -1,0 +1,34 @@
+:root{--color1: gray;}
+
+
+
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.parent-section{background-color: #2fa9a9;}
+h1{text-align: center;font-weight: lighter;}
+.parent-section {display: flex;justify-content: center;align-items: center;height: 590px;}
+.child-section{height: 500px;width: 400px;background-color: #fff}
+.input-div {display: flex;justify-content: center;margin-top:10px;}
+.input-div input[type='text'] {outline: none;padding: 5px;width: 300px}
+.input-div i {color: darkgreen;position: relative;right: 20px;top: 8px;cursor: pointer}   
+.fetch-Item {width: 260px;margin: 10px auto;}
+.fetch-list {display: flex;justify-content: space-between;align-items: center;}
+.fa-plus{color: gray;font-size: 0.8rem;margin-right: 10px;cursor: pointer;}
+.fa-edit {color: green;font-size: 0.8rem;margin-right: 10px;cursor: pointer;}
+.fa-trash {color: rgb(230, 10, 10);font-size: 0.8rem;cursor: pointer;}
+.data-remove-btn{display: flex;justify-content: center;margin-top: 20px;}
+.data-remove-btn button {
+    background-color: brown;
+    color: #fff;
+    height: 24px;
+    width: 70px;
+    border: none;
+    border-radius: 5px;
+}
+.data-remove-btn button:hover{background-color: #f11010;cursor: pointer;}
+.child-section {
+    box-shadow: 
+      2px 0px 5px 0px var(--color1),
+      0px 2px 5px  0px var(--color1),
+      -2px 0px 5px 0px var(--color1),
+      0px -2px 5px 0px var(--color1);
+  }
